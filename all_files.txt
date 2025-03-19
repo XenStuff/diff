@@ -1095,6 +1095,7 @@ product/etc/sysconfig/personal_safety.xml
 product/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml
 product/etc/sysconfig/preinstalled-packages-platform-overlays.xml
 product/etc/sysconfig/preinstalled-packages-platform-telephony-product.xml
+product/etc/sysconfig/sysconfig_contextual_search.xml
 product/etc/sysconfig/turbo.xml
 product/etc/sysconfig/wellbeing.xml
 product/etc/NOTICE.xml.gz
@@ -4361,6 +4362,7 @@ system/system/priv-app/SharedStorageBackup/SharedStorageBackup.apk
 system/system/priv-app/Shell/oat/arm64/Shell.odex
 system/system/priv-app/Shell/oat/arm64/Shell.vdex
 system/system/priv-app/Shell/Shell.apk
+system/system/priv-app/SmartVoice/lib/arm64/libNetAccessKeys.so
 system/system/priv-app/SmartVoice/lib/arm64/libcrashlytics-common.so
 system/system/priv-app/SmartVoice/lib/arm64/libcrashlytics-handler.so
 system/system/priv-app/SmartVoice/lib/arm64/libcrashlytics-trampoline.so
@@ -6210,7 +6212,7 @@ system_ext/priv-app/xrvdservice/xrvdservice.apk
 system_ext/priv-app/xrwifiservice/oat/arm64/xrwifiservice.odex
 system_ext/priv-app/xrwifiservice/oat/arm64/xrwifiservice.vdex
 system_ext/priv-app/xrwifiservice/xrwifiservice.apk
-temp_extracted_archive/Flash_slot_b.bat
+temp_extracted_archive/Flash_slot_a.bat
 temp_extracted_archive/Install_Magisk_boot.bat
 temp_extracted_archive/Install_Stock_boot.bat
 temp_extracted_archive/Magisk.apk
