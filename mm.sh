@@ -1,1 +1,3 @@
-pacstrap /mnt base linux linux-firmware networkmanager grub efibootmgr vim nano
+mount /dev/sda2 /mnt
+mkdir -p /mnt/boot
+mount /dev/sda1 /mnt/boot
