@@ -1,1 +1,3 @@
-reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+mount /dev/sda2 /mnt
+mkdir -p /mnt/boot
+mount /dev/sda1 /mnt/boot
