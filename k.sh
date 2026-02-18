@@ -1,1 +1,1 @@
-curl -o /dev/null https://mirror.rackspace.com/archlinux/iso/latest/archlinux-x86_64.iso
+reflector --country India,Singapore,Japan --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
