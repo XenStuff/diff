@@ -1,1 +1,1 @@
-pacstrap /mnt base linux linux-firmware networkmanager grub efibootmgr vim
+reflector --country India,Singapore,Japan --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
