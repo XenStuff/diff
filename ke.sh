@@ -1,1 +1,1 @@
-cd programs; for f in *.cpp; g++ $f -o (string replace .cpp '' $f); end
+for f in $(find . -maxdepth 1 -type f -executable | sort); do echo "== $f"; $f; done
